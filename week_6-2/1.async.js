@@ -1,11 +1,10 @@
-console.log('Starting'); // 1
+console.log('Starting'); // 동기적
 
 setTimeout(() => {
-    console.log('2 second Timer') // 2
-},2000); // ms
+    console.log('2초 뒤 실행')
+},2000) 
 
-setTimeout(() => { 
-    console.log('0') // 3
-},0);
 
-console.log('Stop'); // 2
+console.log('Stopping');
+
+// 책읽듯이 위에서 아래로
